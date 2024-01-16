@@ -1,1 +1,1 @@
-mlflow run git@github.com:Natasha-Databricks/mlflow-example.git -b databricks --backend-config cluster-spec.json --experiment-id 69050624747692
+mlflow run git@github.com:Natasha-Databricks/mlflow-example.git -b databricks --backend-config cluster-spec.json --experiment-id 69050624747692 --env-manager=local

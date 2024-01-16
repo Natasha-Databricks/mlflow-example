@@ -1,5 +1,14 @@
 {
-  "spark_version": "7.3.x-scala2.12",
-  "num_workers": 1,
-  "node_type_id": "i3.xlarge"
+  "new_cluster": {
+    "spark_version": "14.2.x-gpu-ml-scala2.12",
+    "num_workers": 1,
+    "node_type_id": "i3.xlarge"
+  },
+  "libraries": [
+    {
+      "pypi": {
+        "package": "mlflow==2.9.2"
+      }
+    }
+  ]
 }
