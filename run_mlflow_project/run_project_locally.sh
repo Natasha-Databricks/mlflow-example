@@ -1,0 +1,1 @@
+mlflow run git@github.com:Natasha-Databricks/mlflow-example.git -P alpha=0.5 --env-manager=local

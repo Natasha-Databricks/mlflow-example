@@ -1,0 +1,3 @@
+.env
+environment_vars.sh
+mlruns/*
